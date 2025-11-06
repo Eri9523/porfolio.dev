@@ -1,6 +1,6 @@
 import GitHub from "./icons/GitHub.astro"
 import React from "./icons/React.astro"
-import Astro from "./icons/Astro.astro"
+import Astro from "./icons/Astroicon.astro"
 import Bash from "./icons/Bash.astro"
 import Blockchain from "./icons/Blockchain.astro"
 import Cloudflare from "./icons/Cloudflare.astro"
@@ -123,6 +123,7 @@ export const PROJECTS = [
       "Permite filtrar y escuchar entre tus playlists, artistas y canciones favoritas. Creada con React y API de Spotify. Login con Oauth2",
     github: "https://github.com/Eri9523/spotify",
     image: "/projects/spotify.png",
+    alt: "Captura de pantalla del reproductor de música de Spotify mostrando playlists y controles de reproducción",
     tags: [TAGS.REACT, TAGS.CSS, TAGS.GIT],
   },
   {
@@ -131,6 +132,7 @@ export const PROJECTS = [
       "Plataforma que muestra en tiempo real el ranking de distintos modos de juego de Axie Infinity. Creada con Astro, Nodejs, Express APIs, Cloudflare, Servidor Linux y Github Actions entre otros...",
     link: "https://axie.es",
     image: "/projects/axiees.png",
+    alt: "Pantalla principal de axie.es mostrando leaderboard en tiempo real de Axie Infinity",
     tags: [TAGS.ASTRO, TAGS.NODEJS, TAGS.EXPRESS, TAGS.DOCKER, TAGS.BLOCKCHAIN, TAGS.GIT, TAGS.GITHUB_ACTIONS, TAGS.CSS, TAGS.LINUX, TAGS.CLOUDFLARE, TAGS.MYSQL, TAGS.PUPPETEER],
   },
   {
@@ -139,13 +141,15 @@ export const PROJECTS = [
       "Plataforma de sorteos NFT con reparto de premios automático en Blockchain Ethereum (Ronin), notificaciones en discord y escritura de información automatizada en google sheets.",
     link: "https://roninkaeru.com",
     image: "/projects/kaeru.png",
+    alt: "Interfaz de Kaeru mostrando sorteos NFT activos con premios en blockchain",
     tags: [TAGS.REACT, TAGS.PYTHON, TAGS.FIREBASE, TAGS.BLOCKCHAIN, TAGS.LINUX, TAGS.GIT, TAGS.DOCKER],
   },
-    {
+  {
     title: "Comunidad Web3 Autogestionada",
     description:
       "Aplicación de Discord con más de 2000 usuarios que permite la gestión automatizada gratuita del modelo <reclutador-jugador> en el juego Axie Infinity. Permite seguimiento en tiempo real de los jugadores e interactua con múltiples APIs otorgando distintas funcionalidades, OpenAI api, y ejecución de transacciones Blockchain entre otras...",
     image: "/projects/discord.png",
+    alt: "Bot de Discord mostrando comandos y gestión automatizada para comunidad Web3",
     tags: [TAGS.PYTHON, TAGS.BLOCKCHAIN, TAGS.LINUX, TAGS.GIT, TAGS.DOCKER, TAGS.BASH, TAGS.MYSQL],
   },
   {
@@ -153,6 +157,7 @@ export const PROJECTS = [
     description:
       "Múltiples Proyectos backend en python que detectan y realiza transacciones en tiempo real comprando y vendiendo NFTs con el fin de obtener un beneficio económico de forma pasiva en blockchain Ronin.",
     image: "/projects/marketplace.png",
+    alt: "Dashboard de bots de marketplace mostrando transacciones NFT automatizadas en tiempo real",
     tags: [TAGS.PYTHON, TAGS.BLOCKCHAIN, TAGS.LINUX, TAGS.GIT, TAGS.DOCKER, TAGS.BASH, TAGS.MYSQL],
   },
 ]
